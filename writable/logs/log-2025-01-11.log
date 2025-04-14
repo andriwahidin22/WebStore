@@ -1,0 +1,309 @@
+CRITICAL - 2025-01-11 04:18:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "search_results.php"
+[Method: GET, Route: search]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('search_results.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('search_results', [], true)
+ 3 APPPATH/Controllers/Home.php(66): view('search_results', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 04:18:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "search_results.php"
+[Method: GET, Route: search]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('search_results.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('search_results', [], true)
+ 3 APPPATH/Controllers/Home.php(66): view('search_results', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 04:18:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "search_results.php"
+[Method: GET, Route: search]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('search_results.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('search_results', [], true)
+ 3 APPPATH/Controllers/Home.php(66): view('search_results', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 04:19:16 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: search]
+in APPPATH/Views/search_results.php on line 19.
+ 1 APPPATH/Views/search_results.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', '/Users/andriwahidin/Documents/WebStore22/app/Views/search_results.php', 19)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('search_results', [], true)
+ 5 APPPATH/Controllers/Home.php(66): view('search_results', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 04:47:17 --> ErrorException: Undefined array key "gambar"
+[Method: GET, Route: search]
+in APPPATH/Views/search_results.php on line 19.
+ 1 APPPATH/Views/search_results.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', '/Users/andriwahidin/Documents/WebStore22/app/Views/search_results.php', 19)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('search_results', [], true)
+ 5 APPPATH/Controllers/Home.php(66): view('search_results', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+DEBUG - 2025-01-11 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 04:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 11:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 21:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 21:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 21:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 21:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-11 22:27:34 --> ErrorException: Undefined array key "nama_kategori"
+[Method: GET, Route: search]
+in APPPATH/Views/search_results.php on line 83.
+ 1 APPPATH/Views/search_results.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', '/Users/andriwahidin/Documents/WebStore22/app/Views/search_results.php', 83)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/search_results.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('search_results', [], true)
+ 5 APPPATH/Controllers/Home.php(65): view('search_results', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->search()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+DEBUG - 2025-01-11 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 22:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-11 22:52:49 --> TypeError: number_format(): Argument #1 ($num) must be of type int|float, string given
+[Method: GET, Route: admin/product]
+in APPPATH/Views/admin/product/index.php on line 114.
+ 1 APPPATH/Views/admin/product/index.php(114): number_format('Rp 10.000.000', 0, ',', '.')
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/admin/product/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/product/index', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(44): view('admin/product/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 22:52:56 --> TypeError: number_format(): Argument #1 ($num) must be of type int|float, string given
+[Method: GET, Route: admin/product]
+in APPPATH/Views/admin/product/index.php on line 114.
+ 1 APPPATH/Views/admin/product/index.php(114): number_format('Rp 10.000.000', 0, ',', '.')
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/admin/product/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/product/index', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(44): view('admin/product/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 22:53:07 --> TypeError: number_format(): Argument #1 ($num) must be of type int|float, string given
+[Method: GET, Route: admin/product]
+in APPPATH/Views/admin/product/index.php on line 114.
+ 1 APPPATH/Views/admin/product/index.php(114): number_format('Rp 10.000.000', 0, ',', '.')
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/admin/product/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/product/index', [], true)
+ 5 APPPATH/Controllers/Admin/Product.php(44): view('admin/product/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+DEBUG - 2025-01-11 23:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-11 23:10:50 --> ErrorException: Undefined variable $totalProducts
+[Method: GET, Route: admin/dashboard]
+in APPPATH/Views/admin/dashboard/index.php on line 121.
+ 1 APPPATH/Views/admin/dashboard/index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalProducts', '/Users/andriwahidin/Documents/WebStore22/app/Views/admin/dashboard/index.php', 121)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/admin/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Admin/Dashboard.php(11): view('admin/dashboard/index')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 23:12:38 --> Error: Class "App\Controllers\Admin\ProductModel" not found
+[Method: GET, Route: admin/dashboard]
+in APPPATH/Controllers/Admin/Dashboard.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 23:13:57 --> ErrorException: Undefined variable $salesData
+[Method: GET, Route: admin/dashboard]
+in APPPATH/Views/admin/dashboard/index.php on line 215.
+ 1 APPPATH/Views/admin/dashboard/index.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $salesData', '/Users/andriwahidin/Documents/WebStore22/app/Views/admin/dashboard/index.php', 215)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andriwahidin/Documents/WebStore22/app/Views/admin/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Admin/Dashboard.php(36): view('admin/dashboard/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+DEBUG - 2025-01-11 23:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-11 23:34:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 /Users/andriwahidin/Documents/WebStore22/app/Controllers/Order.php(51): CodeIgniter\BaseModel->save(Array)
+#9 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Order->processOrder()
+#10 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#11 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /Users/andriwahidin/Documents/WebStore22/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 /Users/andriwahidin/Documents/WebStore22/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/andriwah...')
+#16 {main}
+CRITICAL - 2025-01-11 23:34:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: order/processOrder]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (:produk_id:, :quantity:, :alamat:, :email:, :metode_pembayaran:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/Order.php(51): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Order->processOrder()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 23:34:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (\'17\', \'1\', \'adasd\', \'elmazulaikay@gmail.com\', \'E-Wallet\', 0, \'2025-01-11 23:34:27\', \'2025-01-11 23:34:27\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (\'17\', \'1\', \'adasd\', \'elmazulaikay@gmail.com\', \'E-Wallet\', 0, \'2025-01-11 23:34:27\', \'2025-01-11 23:34:27\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (:produk_id:, :quantity:, :alamat:, :email:, :metode_pembayaran:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH/Controllers/Order.php(51): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Order->processOrder()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+CRITICAL - 2025-01-11 23:34:27 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (\'17\', \'1\', \'adasd\', \'elmazulaikay@gmail.com\', \'E-Wallet\', 0, \'2025-01-11 23:34:27\', \'2025-01-11 23:34:27\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (\'17\', \'1\', \'adasd\', \'elmazulaikay@gmail.com\', \'E-Wallet\', 0, \'2025-01-11 23:34:27\', \'2025-01-11 23:34:27\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (\'17\', \'1\', \'adasd\', \'elmazulaikay@gmail.com\', \'E-Wallet\', 0, \'2025-01-11 23:34:27\', \'2025-01-11 23:34:27\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`produk_id`, `quantity`, `alamat`, `email`, `metode_pembayaran`, `total_harga`, `created_at`, `updated_at`) VALUES (:produk_id:, :quantity:, :alamat:, :email:, :metode_pembayaran:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/Order.php(51): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Order->processOrder()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH/rewrite.php(44): require_once('/Users/andriwahidin/Documents/WebStore22/public/index.php')
+DEBUG - 2025-01-11 23:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-11 23:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
